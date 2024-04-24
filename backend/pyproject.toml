@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "webdeck"
+version = "0.0.1"
+description = ""
+authors = ["Actus Nileh <actusnileh@gmail.com>"]
+license = "GNU"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.110.2"
+pymongo = "^4.6.3"
+uvicorn = "^0.29.0"
+django-environ = "^0.11.2"
+pydantic = "^2.7.1"
+pydantic-settings = "^2.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
